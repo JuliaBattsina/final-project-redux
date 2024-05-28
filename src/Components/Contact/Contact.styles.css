@@ -1,0 +1,148 @@
+.overlas-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 62px;
+  font-family: "Spectral", serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #fdfebe;
+}
+
+.overlas-text p {
+  margin: 0;
+}
+
+.overlas-text button {
+  margin-top: 10px;
+}
+.overlas-text button {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 150px;
+  height: 50px;
+  font-size: 18px;
+  font-family: "Spectral", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.form-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-form {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 0;
+  border: 2px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 800px;
+}
+
+.contact-form label,
+.contact-form input,
+.contact-form textarea {
+  display: block;
+  margin-bottom: 10px;
+  width: calc(100% - 40px);
+  font-size: 16px;
+  color: black;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+.contact-form button {
+  margin-top: 20px;
+  background-color: transparent;
+  border: 2px solid white;
+  color: #a8a6a1;
+  margin: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 250px;
+  height: 50px;
+  font-size: 18px;
+  font-family: "Spectral", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.contact-form button:hover {
+  background-color: #ccc;
+}
+@media screen and (max-width: 500px) {
+  .images-container {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .overlays-text {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+  }
+
+  .overlas-text button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+
+  .overlas-text button:hover {
+    background-color: #0056b3;
+  }
+
+  .Support {
+    margin-top: 20px;
+  }
+  p {
+    font-size: 30px;
+    text-align: center;
+  }
+  h2 {
+    font-size: 10px;
+  }
+
+  .form-overlay {
+    width: 100%;
+    height: 100%;
+    align-items: flex-start;
+  }
+
+  .contact-form {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .contact-form label,
+  .contact-form input,
+  .contact-form textarea {
+    width: calc(100% - 10px);
+    font-size: 14px;
+  }
+
+  .contact-form button {
+    width: 100%;
+    margin: 10px 0;
+  }
+}

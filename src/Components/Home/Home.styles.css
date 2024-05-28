@@ -1,0 +1,261 @@
+.App {
+  position: relative;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.images-container {
+  position: relative;
+}
+.block {
+  position: relative;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 62px;
+  font-family: "Spectral", serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #fdfebe;
+}
+
+.overlay-text p {
+  margin: 0;
+}
+
+.shop-link {
+  margin-top: 10px;
+  display: inline-block;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Spectral", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.shop-link:hover {
+  background-color: #ccc;
+}
+
+h2 {
+  font-size: 45px;
+  font-family: "Spectral", serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #fdfebe;
+}
+
+.favorite-images {
+  display: flex;
+  margin-top: 50px;
+}
+
+.image-item {
+  flex: 1;
+}
+
+.image-item img {
+  width: 350px;
+  height: 500px;
+}
+
+.image-info {
+  text-align: center;
+}
+
+.image-info button {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 150px;
+  height: 50px;
+  font-size: 18px;
+  font-family: "Spectral", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.image-info button:hover {
+  background-color: #ccc;
+}
+
+.text-info {
+  font-size: 30px;
+  font-family: "Spectral", serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #fdfebe;
+  text-shadow: #a8a6a1;
+}
+
+.new-image-container {
+  margin-top: 50px;
+  width: 100%;
+  height: auto;
+  max-height: 650px;
+}
+
+.gift-card-container {
+  display: flex;
+  margin-top: 100px;
+}
+.gift-card-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: black;
+  font-size: 50px;
+  font-family: "Spectral", serif;
+  font-weight: 500;
+  font-style: normal;
+  text-shadow: 2px 2px 4px rgba(253, 234, 234, 0.5);
+}
+.image-container {
+  flex: 1;
+  height: 100%;
+  position: relative;
+}
+
+.text-container {
+  flex: 1;
+  height: 100%;
+}
+
+.text-container {
+  margin-top: 80px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  font-size: 20px;
+  font-family: "Spectral", serif;
+  font-weight: 500;
+  font-style: normal;
+  margin-right: 50px;
+  color: #fdfebe;
+}
+
+.image-container img {
+  width: 500px;
+  height: 600px;
+  display: block;
+}
+
+@media screen and (max-width: 700px) {
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .block {
+    margin-top: 50px;
+  }
+
+  .overlay-text button {
+    margin-top: 10px;
+  }
+
+  .overlay-text button {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .overlay-text button:hover {
+    background-color: #ccc;
+  }
+
+  h2,
+  h3 {
+    font-size: 30px;
+  }
+
+  .favorite-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .image-item {
+    flex: 0 0 100%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .image-item img {
+    width: 100%;
+  }
+
+  .image-info {
+    margin-top: 10px;
+  }
+
+  .image-info button {
+    margin-top: 10px;
+  }
+
+  .gift-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .image-container {
+    flex: 0 0 100%;
+    position: relative;
+  }
+
+  .image-container img {
+    width: 100%;
+  }
+
+  .gift-card-text {
+    font-size: 30px;
+  }
+
+  .text-container {
+    flex: 0 0 75%;
+    margin-top: 20px;
+  }
+
+  .text-container button {
+    margin-top: 10px;
+  }
+  .overlay-text {
+    font-size: 20px;
+    line-height: 1.2em;
+  }
+}
